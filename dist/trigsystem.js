@@ -2055,7 +2055,7 @@ $(function () {
 	},{
 		question: "Which two equations describe the graph?",
 		image: "images/question4.png",
-		choices: ["words", " y = sin( x + 90^-degrees ) & y = + cos( x + 180 ) ", " y = sin( x - 90 ) & y = + cos( x + 180 ) "," y = sin( x - 90 ) & y = cos( x + 90 ) "],
+		choices: ["words", " y = sin( x + 90° ) & y = + cos( x + 180° ) ", " y = sin( x - 90° ) & y = + cos( x + 180° ) "," y = sin( x - 90° ) & y = cos( x + 90° ) "],
 		correctAnswer: 2,
 		type: 0,
 		tips: ""
