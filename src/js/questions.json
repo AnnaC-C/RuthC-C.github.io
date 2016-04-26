@@ -1,0 +1,59 @@
+{
+    "lesson-1" :[{
+    "question": "What is the equation of this curve?",
+    "image": "images/question1.png",
+    "choices": ["words", " y = 3 + sin x ", " y = 1 + sin x ", " y = 2 + sin x ", " y = 2sin x "],
+   "correctAnswer": 3,
+    "type": 0,
+    "tips": "The graph shows that it is sinx, but the difference is that the y values have all increased byu 2. This has moved the whole graph up by 2, in the y direction. So the equation is: y = 2 + sinx"
+  }, {
+    "question": "What is the equation of this curve?",
+    "image": "images/question2.png",
+    "choices": ["words", " y = 3 + tan x ", " y  = tan 3x ", " y = 3 tan x ", " y = tan 1/3 x "],
+    "correctAnswer": 2,
+    "type": 0,
+    "tips": "In this case the y values are the same but the tan graph has been 'squashed' in the x direction. To find the scale factor, we need to look at the period of the graph. Usually the tan graph has a period of 180°, but here it is 60°. Therefore the scale factor is 1/3 and the equation is: y = tan3x."
+  },{
+    "question": "What is the equation of this curve?",
+    "image": "images/question3.png",
+    "choices": ["words", " y = 2 + cos x ", " y = cos 2x ", " y = 2cos x ", " y = cos 1/2 x "],
+    "correctAnswer": 3,
+    "type": 0,
+    "tips":"The shape of the graph is similar to that of cosx, but the y values have increased by a factor of 2. Therefore the equation is: y = 2cosx."
+  },{
+    "question": "Which two equations describe the graph?",
+    "image": "images/question4.png",
+    "choices": ["words", " y = sin( x + 90^-degrees ) & y = + cos( x + 180 ) ", " y = sin( x - 90 ) & y = + cos( x + 180 ) "," y = sin( x - 90 ) & y = cos( x + 90 ) "],
+    "correctAnswer": 2,
+    "type": 0,
+    "tips": ""
+  },{
+    "question": "Which curve has the equation y = sinx - 1?",
+    "image": "none",
+    "choices": ["images", " <img src = images/question5a.png> ", " <img src =images/question5b.png> "," <img src =images/question5c.png> ", " <img src =images/question5d.png> "],
+    "correctAnswer": 1,
+    "type": 1,
+    "tips":"The curve y = sinx - 1 has the same x values as sinx, bit it has been moved down 1 unit in the y direction."
+  },{
+    "question": "Which curve has the equation y = sin 1/2 x?",
+    "image": "none",
+    "choices": ["images", " <img src =images/question5a.png> ", " <img src =images/question5b.png> "," <img src =images/question5c.png>", "<img src =images/question5d.png>"],
+    "correctAnswer": 2,
+    "type": 1,
+    "tips":"The curve y = sin1/2x has the same range of y values as y = sinx, but it has been stretched by a scale factor of 2."
+  },{
+    "question": "Which curve has the equation y = sin( x + 90 )?",
+    "image": "none",
+    "choices": ["images", "<img src =images/question5a.png>", "<img src =images/question5b.png>","<img src =images/question5c.png>", "<img src =images/question5d.png>"],
+    "correctAnswer": 3,
+    "type": 1,
+    "tips":"The curve of y = sin(x + 90°) is the same as the sinx curve but it has been moved 90° in the negative direction of the x axis."
+  },{
+    "question": "Which curve has the equation y = 1/2 sinx?",
+    "image": "none",
+    "choices": ["images", "<img src =images/question5a.png>", "<img src =images/question5b.png>","<img src =images/question5c.png>", "<img src =images/question5d.png>"],
+    "correctAnswer": 3,
+    "type": 1,
+    "tips":"The curve of y = 1/2sinx is similar to the curve of y = sinx, but it has been stretched by a factor of 1/2 in a direction parrallel to the y axis."
+  }]
+}

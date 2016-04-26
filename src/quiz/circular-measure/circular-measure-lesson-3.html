@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name='description' content='A System to teach teenagers Mathematics'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap <link href='../../dist/css/bootstrap.min.css' rel='stylesheet'>-->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+    <link href='../../css/style.css' type='text/css' rel='stylesheet'>
+    <link href='../../css/quiz-style.css' type='text/css' rel='stylesheet'>
+  </head>
+  
+  <body>
+
+
+	<!-- Top Navbar-->
+	<div class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand"><span>TrigSystems</span></a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-ex-collapse">
+				<ul class="nav navbar-nav navbar-right" id="nav-buttons">
+	  			<li><a href="../../main.html">Home</a></li>
+	  			<li class="active"> <a href="learn.html">Learn</a></li>
+	  			<li> <a href="../../friends.html">Discussion</a></li>
+	  			<li> <a href="../../game.html">Game</a></li>
+	  			<li> <a href="../../resources.html">Resources</a></li>
+	  			<li> <a href="../../signin.html">Sign In</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+ <!-- Middle section-->
+<div class="section">
+	<div class="container" id="questions">
+		<div class="row">
+	  		<div class="col-xs-12">
+		  		<div class="jumbotron">
+		  	<header>
+			<div class="row">
+			  	<ul class="player-header-left">
+			  		<li id="explanation">
+
+			  		<a id="hints" tabindex="0" class="btn btn-info" role="button" data-toggle="popover" data-trigger="focus" title="Tips and Notes" data-content="Tips and Notes on this question">Tips and Notes</a>
+			  		<script type="text/javascript">
+			  			$(document).ready(function(){
+			  				$('[data-toggle="popover"').popover();
+			  			});
+			  		</script>
+
+			  		</li>
+			  	</ul>
+
+			  	<ul class="play-header-right">
+			  		<li><a href="learn.html" id="quit-button">Quit</a></li>
+			  	</ul>
+		  	<div id="lesson-progress" class="progress bar progress-bar-info progress-bar-striped" role="progressbar" valuenow="100" aria-valuemin="0" valuemax="100" style="width: 0%">
+		  		<span class="sr-only">0%</span>
+		  	</div></div>
+			</header>
+		  	<h2 id="quiz-heading">Circular Measure</h2>
+		  	<hr>
+		  	<div id='quiz'></div>
+	    	<footer class="footer" id="controls">
+	    		<div class="col-xs-10" id="checked"><img src="images/cross2.png" class="tick-cross-image" id="tick-cross"><h2 id="outcome"></h2><p class="text-left" id="tick-cross-text"></p></div>
+	  			<div class='btn btn-default' role='button' id='check'>Check</div>
+	  			<div class='btn btn-success' role='button' id='next'>Continue</div>
+	    		<div class='btn btn-default' role='button' id='finish' style="display: inline-block; float: right;">Finish</div>
+	    		<div class='btn btn-default' role='button' id='start' style="display: inline-block; float: right;">Redo</div>
+    		</footer>
+		  	</div>	
+	  </div>
+  </div>
+</div>
+</div>
+
+<!-- Bottom navbar -->
+<footer class="section section-primary" id="footer">
+	<div class="background-image" style="background-image: url('images/balls.png');"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>Footer Header</h1>
+				<p>Lorem ipsem bla</p>
+			</div>
+			<div class="col-sm-6">
+				<p class="text-info text-right">
+					<br>
+					<br>
+				</p>
+				<div class="row">
+                    <div class="col-md-12 hidden-xs text-right">
+                        <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                        <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</footer>	
+    
+	 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='../dist/js/bootstrap.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='../../js/questions.json'></script>
+    <script type="text/javascript" src="../../js/script.js"></script>
+    <script type="text/javascript" src="../../js/quiz-extra.js"></script>
+    <script type='text/javascript' src='quiz-3.js'></script>
+  </body>
+</html>

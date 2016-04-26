@@ -1,0 +1,146 @@
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #1E90FF;
+    border:4px solid #B0E0E6;
+    border-radius:10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+
+#checked{
+	display: none;
+}
+
+
+.tick-cross-image {
+	float: left;
+	height: 100px;
+	position: relative;
+
+}
+#the-footer{
+	margin-top: 10px;
+}
+#next{
+	display: none;
+}
+
+#start {
+    display:none;
+}
+
+#finish{
+	display:none;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+    padding: 10px;
+    position: relative;
+}
+
+#quiz-heading{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#quit-button{
+	float: right;
+}
+
+#qImage{
+	width:980px;
+	height: 300px;
+
+}
+
+label {
+	display: inline;
+}
+label > input + img{
+	cursor: pointer;
+	border: 2px solid transparent;
+	display: inline;
+}
+
+label > input:checked + img {
+	border: 2px solid #181b1e;
+}
+
+ul li{
+	display: inline;
+	margin: 10px;
+}
+
+li img {
+	width: 20%;
+	min-width: 160px;
+}
+p > img{
+	width: 20%;
+}
+
+.btn {
+    position: relative;
+    float:right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.jumbotron h1{
+	   text-align: center;
+}
+.player-header-left{
+	float: left;
+}
+
+.player-header-right{
+	float: right;
+}
+
+#controls{
+	background: #dbdbdb;
+	margin: 0 0px 0 15px;
+	padding: 10px 40px;
+	display: block;
+	border-radius: 0px 0px 10px 10px;
+	width: 1140px;
+}
+
+#lesson-progress{
+	width: 500px;
+	border-radius: 10px;
+	/*border-color: #272B30;
+	border: solid;*/
+	max-width: 750px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+#progression{
+	width: 800px;
+	position: relative;
+	align-self: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+#outcome{
+	text-align: left;
+}

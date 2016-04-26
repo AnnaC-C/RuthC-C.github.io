@@ -1,0 +1,17 @@
+{ "users" :
+	[{
+		"firstName" : "Ruth",
+		"lastName" : "Caulcott-Cooper",
+		"level" : 0,
+		"experience" : 0,
+		"dailyExp" : 0
+
+	},{
+		"firstName" : "Bob",
+		"lastName" : "Ross",
+		"level" : 4,
+		"experience" : 80,
+		"dailyExp" : 50
+			}]
+}
+
