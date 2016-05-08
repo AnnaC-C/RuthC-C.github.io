@@ -1,0 +1,5 @@
+Information:
+
+To open the application simply drag and drop the 'index.html' file into a browser page. (Chrome is preferable).
+
+If you have Node.js installed on your computer. Simply go to your command line, change directory to the application, type 'npm install', then 'grunt serve', and go on the localhost server that grunt says the application is running on. 

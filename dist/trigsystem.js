@@ -2197,7 +2197,7 @@ $(function () {
 	var dataVal = myElement.getAttribute("data-content");
 	var newData = questions[index].tips;
 	myElement.setAttribute("data-content", newData);
-	var picture = $('<img id = qImage src =' + questions[index].image + '>');
+	var picture = $('<img id = qImage src = ' + questions[index].image + '>');
 	
 	options.append(picture);
 	
